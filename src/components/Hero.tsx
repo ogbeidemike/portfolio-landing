@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
           </div>
           <div className="flex flex-wrap gap-4 mt-8">
             <a
-              href="/resume.pdf"
+              href="/portfolio-landing/resume.pdf"
               className="flex items-center gap-2 bg-white text-primary-800 hover:bg-primary-50 px-6 py-3 rounded-lg font-medium transition-colors duration-300"
               download
             >
@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
               Download Resume
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/ogbeidemike"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-primary-700 hover:bg-primary-600 px-6 py-3 rounded-lg font-medium transition-colors duration-300"
@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
           <div className="relative">
             <div className="w-48 h-48 md:w-64 md:h-64 bg-primary-600 rounded-full overflow-hidden border-4 border-primary-100 shadow-xl">
               <img
-                src="/osamudiamen.jpg"
+                src="/portfolio-landing/osamudiamen.jpg"
                 alt="Osamudiamen Ogbeide"
                 className="w-full h-full object-cover object-center"
               />
