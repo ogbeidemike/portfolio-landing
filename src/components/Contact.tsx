@@ -20,11 +20,11 @@ const Contact: React.FC = () => {
             className="flex items-center gap-2 bg-primary-700 hover:bg-primary-600 px-6 py-3 rounded-lg transition-colors duration-300"
           >
             <Mail size={20} />
-            <span>osamudiamen@example.com</span>
+            <span>ogbeidemike038@gmail.com</span>
           </a>
           
           <a 
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/ogbeidemike"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-[#0077B5] hover:bg-[#0066a1] px-6 py-3 rounded-lg transition-colors duration-300"
