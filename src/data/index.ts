@@ -168,7 +168,7 @@ ORDER BY
 export const experiences: ExperienceItem[] = [
   {
     id: 1,
-    role: 'Support-Staff ERP Financial System Implementation',
+    role: 'ERP Financial System Implementation Support Staff',
     company: 'NPDC/NECONDE (OML-42 AMT)',
     period: '2019-2022',
     description:
@@ -183,7 +183,7 @@ export const experiences: ExperienceItem[] = [
   },
   {
     id: 2,
-    role: 'Financial Systems Analyst-Ad hoc Staff',
+    role: 'Financial Systems Analyst-Ad Hoc Staff/consultant',
     company: 'NPDC',
     period: '2022',
     description:
