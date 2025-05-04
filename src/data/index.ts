@@ -159,9 +159,9 @@ ORDER BY
 export const experiences: ExperienceItem[] = [
   {
     id: 1,
-    role: 'Senior ERP Financial Systems Specialist',
-    company: 'NPDC',
-    period: '2015-2022',
+    role: 'ERP Financial Systems Implementation Support Staff',
+    company: 'NPDC/NECONDE (OML42 AMT)',
+    period: '2019-2022',
     description: 'Managed implementation and support of financial ERP systems, focusing on data transformation and automation.',
     achievements: [
       'Implemented automated reconciliation system reducing month-end close time by 40%',
@@ -173,9 +173,9 @@ export const experiences: ExperienceItem[] = [
   },
   {
     id: 2,
-    role: 'Financial Systems Analyst',
+    role: 'Financial Systems Analyst-Ad Hoc Staff/Consultant',
     company: 'NPDC',
-    period: '2012-2015',
+    period: '2022-2024',
     description: 'Provided technical support for financial systems and developed data analysis solutions.',
     achievements: [
       'Supported migration from legacy financial systems to modern ERP platform',
