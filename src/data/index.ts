@@ -174,8 +174,8 @@ export const experiences: ExperienceItem[] = [
   {
     id: 2,
     role: 'Financial Systems Analyst-Ad Hoc Staff/Consultant',
-    company: 'NPDC',
-    period: '2022-2024',
+    company: 'NPDC/NEPL',
+    period: '2022',
     description: 'Provided technical support for financial systems and developed data analysis solutions.',
     achievements: [
       'Supported migration from legacy financial systems to modern ERP platform',
