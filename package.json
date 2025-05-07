@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://ogbeidemike.github.io/portfolio-landing/",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -12,8 +13,10 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "gh-pages": "^6.3.0",
-    "lucide-react": "^0.344.0",
+    "lucide-react": "^0.507.0",
     "prismjs": "^1.29.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -35,12 +38,16 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
-    "vite": "^5.4.19"
+    "vite": "^6.3.4"
   },
-  "main": "eslint.config.js",
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "portfolio",
+    "react",
+    "vite",
+    "tailwindcss",
+    "gh-pages"
+  ],
+  "author": "Osamudiamen Ogbeide",
   "license": "ISC",
-  "description": ""
+  "description": "A personal portfolio website showcasing skills, projects, and experience."
 }
-

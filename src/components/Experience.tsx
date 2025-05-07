@@ -1,6 +1,33 @@
 import React from 'react';
-import { experiences } from '../data';
 import { Briefcase, CheckCircle } from 'lucide-react';
+
+// TEMPORARY fallback data (until ../data/portfolioData.ts is added)
+const experiences = [
+  {
+    id: 1,
+    role: 'ERP Financial System Implementation Support Staff',
+    company: 'NPDC/NECONDE (OML-42 AMT)',
+    period: '2019 – 2022',
+    description: 'Provided ERP deployment support and streamlined financial data operations to enhance automation and insight.',
+    achievements: [
+      'Reduced month-end reconciliation time by 40% through automated workflows.',
+      'Designed executive dashboards using HTML for quick financial overviews.',
+      'Led integration of ERP systems with cloud-based financial platforms.',
+    ],
+  },
+  {
+    id: 2,
+    role: 'Financial Systems Analyst – Consultant',
+    company: 'NPDC/FRANK OLUBA AND SONS NIG LIMITED/ALEX FEMINI NIG LTD/TONBRAPA NIG LTD',
+    period: '2022 – Present',
+    description: 'Overseeing service delivery, project execution, and digital transformation strategies.',
+    achievements: [
+      'Comprehensive account reconciliation across multiple enterprises utilizing advanced Excel functionalities and python-driven automation',
+      'Automated regulatory compliance reporting using Python scripts.',
+      'Built reusable tools in Python,Excel and SQL for automated reporting.',
+    ],
+  },
+];
 
 const Experience: React.FC = () => {
   return (
@@ -8,16 +35,14 @@ const Experience: React.FC = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-4 text-center text-primary-800">Professional Experience</h2>
         <p className="text-lg text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-          Over a decade of experience implementing and optimizing financial systems
+          Over a decade of experience implementing and optimizing financial systems.
         </p>
         
         <div className="max-w-4xl mx-auto">
           {experiences.map((exp, index) => (
             <div 
               key={exp.id} 
-              className={`relative flex flex-col md:flex-row ${
-                index !== experiences.length - 1 ? 'pb-12' : ''
-              }`}
+              className={`relative flex flex-col md:flex-row ${index !== experiences.length - 1 ? 'pb-12' : ''}`}
             >
               {/* Timeline Line */}
               {index !== experiences.length - 1 && (
@@ -64,3 +89,6 @@ const Experience: React.FC = () => {
 };
 
 export default Experience;
+
+
+

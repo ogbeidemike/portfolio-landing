@@ -48,8 +48,9 @@ const Hero: React.FC = () => {
         <div className="md:w-1/2 flex justify-center">
           <div className="relative">
             <div className="w-48 h-48 md:w-64 md:h-64 bg-primary-600 rounded-full overflow-hidden border-4 border-primary-100 shadow-xl">
+              {/* Ensure image path is from the public folder */}
               <img
-                src="/portfolio-landing/osamudiamen.jpg"
+                src="/osamudiamen.jpg" // Correct image path from the public folder
                 alt="Osamudiamen Ogbeide"
                 className="w-full h-full object-cover object-center"
               />
@@ -65,3 +66,4 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+

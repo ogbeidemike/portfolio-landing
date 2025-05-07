@@ -1,24 +1,39 @@
 {
   "compilerOptions": {
+    // Target modern JS features
     "target": "ES2020",
-    "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    
+    // Support modern module system and resolution for Vite
     "module": "ESNext",
-    "skipLibCheck": true,
-
-    /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "bundler", // Vite expects this
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": true,
+    
+    // JSX support for React 17+
     "jsx": "react-jsx",
+    
+    // No JS output from tsc, Vite handles bundling
+    "noEmit": true,
 
-    /* Linting */
+    // Enable strict type-checking and useful linting
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true, // Optional: Skip type checking node_modules
+    
+    // Optional: These help with compatibility when importing commonjs modules
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    // (Optional for future) baseUrl and paths for aliasing imports
+    // "baseUrl": "./src",
+    // "paths": {
+    //   "@components/*": ["components/*"],
+    //   "@data/*": ["data/*"]
+    // }
   },
   "include": ["src"]
 }

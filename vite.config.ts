@@ -10,5 +10,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'docs', // 📂 Output build to 'docs' folder
+    assetsDir: '', // Optional: Ensure assets are correctly handled
   },
 });
+

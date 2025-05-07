@@ -12,13 +12,28 @@ import Contact from './components/Contact';
 function App() {
   return (
     <Layout>
+      {/* Site Header */}
       <Header />
+
+      {/* Hero / Intro Section */}
       <Hero />
+
+      {/* Personal Summary / About Me */}
       <Summary />
+
+      {/* Skills Showcase */}
       <Skills />
+
+      {/* Code Demos or GitHub Showcase */}
       <CodeShowcase />
+
+      {/* Work Experience Timeline */}
       <Experience />
+
+      {/* ✅ Projects Portfolio Section */}
       <Projects />
+
+      {/* Contact / Footer */}
       <Contact />
     </Layout>
   );
