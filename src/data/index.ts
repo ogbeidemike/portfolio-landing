@@ -177,24 +177,25 @@ export const experiences: ExperienceItem[] = [
       'Provided ERP deployment support and streamlined financial data operations to enhance automation and insight.',
     achievements: [
       'Reduced month-end reconciliation time by 40% through automated workflows.',
-      'Developed Python scripts for real-time financial data extraction.',
-      'Created dynamic SQL reports that improved cross-department visibility.',
       'Designed executive dashboards using HTML for quick financial overviews.',
       'Led integration of ERP systems with cloud-based financial platforms.',
     ],
   },
   {
     id: 2,
-    role: 'Financial Systems Analyst – Support Staff/Consultant',
-    company: 'NPDC',
-    period: '2022-Present',
+    role: 'Financial Systems Analyst/Product Marketing Strategist/Google Analytics Specialist/Skilled Communicator and Presenter ',
+    company:
+      'NPDC/FRANK OLUBA AND SONS NIG LIMITED/ALEX FEMINI NIG LTD/TONBRAPA NIG LTD',
+    period: '2022 – Present',
     description:
-      'Delivered financial systems support and designed tools for automation, analysis, and team training.',
+      'Overseeing service delivery, project execution, and digital transformation strategies.',
     achievements: [
-      'Successfully migrated physical documents financial data into a modern ERP system.',
-      'Built reusable tools in Python and SQL for automated reporting.',
-      'Led internal training sessions on ERP best practices.',
+      'Comprehensive account reconciliation across multiple enterprises utilizing advanced Excel functionalities and python-driven automation.',
       'Automated regulatory compliance reporting using Python scripts.',
+      'Built reusable tools in Python, Excel, and SQL for automated reporting.',
+      'Translated complex technical skills (e.g., ERP systems, data analysis with SQL/Python, financial software workflows) into clear, value-driven messaging for a hybrid tech/business audience.',
+      'Conducted competitor benchmarking and market research to tailor positioning of tech skills (e.g., scripting, automation) on personal website to match trends in the dev tools ecosystem.',
+      'Created technical case studies and code showcases to serve as developer enablement tools and storytelling aids for enterprise stakeholders.',
     ],
   },
 ];

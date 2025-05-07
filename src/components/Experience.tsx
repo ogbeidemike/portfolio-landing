@@ -17,7 +17,7 @@ const experiences = [
   },
   {
     id: 2,
-    role: 'Financial Systems Analyst – Consultant',
+    role: 'Financial Systems Analyst/Product Marketing Strategist/Google Analytics Specialist/Skilled Communicator and Presenter ',
     company: 'NPDC/FRANK OLUBA AND SONS NIG LIMITED/ALEX FEMINI NIG LTD/TONBRAPA NIG LTD',
     period: '2022 – Present',
     description: 'Overseeing service delivery, project execution, and digital transformation strategies.',
@@ -25,6 +25,9 @@ const experiences = [
       'Comprehensive account reconciliation across multiple enterprises utilizing advanced Excel functionalities and python-driven automation',
       'Automated regulatory compliance reporting using Python scripts.',
       'Built reusable tools in Python,Excel and SQL for automated reporting.',
+      'Translated complex technical skills (e.g., ERP systems, data analysis with SQL/Python, financial software workflows) into clear, value-driven messaging for a hybrid tech/business audience.',
+      'Conducted competitor benchmarking and market research to tailor positioning of tech skills (e.g. scripting, automation) on personal website to match trends in the dev tools ecosystem.',
+      'Created technical case studies and code showcases to serve as developer enablement tools and storytelling aids for enterprise stakeholders.'
     ],
   },
 ];

@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
             Transforming ERP systems with data and code
           </h2>
           <div className="bg-primary-700/30 inline-block px-4 py-2 rounded-full mb-6">
-            <span className="text-primary-50 font-medium">Python | SQL | HTML | Web3 Enthusiast</span>
+            <span className="text-primary-50 font-medium">Front-end Developer | HTML | CSS | JavaScript | Python | SQL</span>
           </div>
           <div className="flex flex-wrap gap-4 mt-8">
             <a
