@@ -17,9 +17,9 @@ const experiences = [
   },
   {
     id: 2,
-    role: 'Financial Systems Analyst/Product Marketing Strategist/Google Analytics Specialist/Skilled Communicator and Presenter ',
+    role: 'Financial Systems and Performance Analyst|Consultant/ Product Marketing Strategist/ Google Analytics Specialist/Skilled Communicator',
     company: 'NPDC/FRANK OLUBA AND SONS NIG LIMITED/ALEX FEMINI NIG LTD/TONBRAPA NIG LTD',
-    period: '2022 – Present',
+    period: '2022 – 2025',
     description: 'Overseeing service delivery, project execution, and digital transformation strategies.',
     achievements: [
       'Comprehensive account reconciliation across multiple enterprises utilizing advanced Excel functionalities and python-driven automation',
@@ -38,7 +38,7 @@ const Experience: React.FC = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-4 text-center text-primary-800">Professional Experience</h2>
         <p className="text-lg text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-          Over a decade of experience implementing and optimizing financial systems.
+          Several years of experience implementing and optimizing financial systems.
         </p>
         
         <div className="max-w-4xl mx-auto">

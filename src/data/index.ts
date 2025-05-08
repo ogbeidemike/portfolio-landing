@@ -183,10 +183,10 @@ export const experiences: ExperienceItem[] = [
   },
   {
     id: 2,
-    role: 'Financial Systems Analyst/Product Marketing Strategist/Google Analytics Specialist/Skilled Communicator and Presenter ',
+    role: 'Financial Systems and Performance Analyst|Consultant/ Product Marketing Strategist/ Google Analytics Specialist/Skilled Communicator ',
     company:
       'NPDC/FRANK OLUBA AND SONS NIG LIMITED/ALEX FEMINI NIG LTD/TONBRAPA NIG LTD',
-    period: '2022 – Present',
+    period: '2022 – 2025',
     description:
       'Overseeing service delivery, project execution, and digital transformation strategies.',
     achievements: [
